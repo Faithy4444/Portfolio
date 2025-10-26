@@ -164,7 +164,9 @@ section h2::after {
   background: linear-gradient(45deg, #ff7e5f, #feb47b, #6a11cb, #2575fc);
   opacity: 0.1;
   transform: rotate(45deg);
+  pointer-events: none;
 }
+
 
 .project-card:hover {
   transform: translateY(-10px);
